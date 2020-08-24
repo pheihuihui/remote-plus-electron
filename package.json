@@ -1,0 +1,26 @@
+{
+  "name": "remote-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pheihuihui/remote-plus-electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pheihuihui/remote-plus-electron/issues"
+  },
+  "homepage": "https://github.com/pheihuihui/remote-plus-electron#readme",
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "typescript": "^4.0.2"
+  }
+}
